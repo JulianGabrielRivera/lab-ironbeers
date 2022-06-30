@@ -1,0 +1,37 @@
+<article class='box'>
+
+  {{!  we can use this keyword for this too but not necessary }}
+  <div class='single-beer'>
+
+    <img src='{{image_url}}' alt='' />
+    <h2 class='alignLeft'>{{name}}</h2>
+
+    <p class='alignLeft grayIt'>{{tagline}}</p>
+    <p class='alignLeft'>{{description}}</p>
+  </div>
+
+</article>
+
+{{!-- <div class='center_random_beer'>
+  <div class='leftSide'>
+    <div class='single-beer'>
+      <img src='{{randomBeer.image_url}}' alt='' />
+    </div>
+  </div>
+
+  <div class='rightSide'>
+    <h2>{{randomBeer.name}}</h2>
+    <p class='grayIt'>{{randomBeer.tagline}}</p>
+    <p>{{randomBeer.description}}</p>
+    <p class='font-weight-bold text'>Food Pairing</p>
+    {{#each randomBeer.food_pairing}}
+      <ul>
+        <li>{{this}}</li>
+      </ul>
+    {{/each}}
+    <span class='font-weight-bold text'>Brewers Tips: </span><span
+    >{{randomBeer.brewers_tips}}</span>
+
+  </div>
+
+</div> --}}

@@ -31,7 +31,8 @@ body {
 }
 .single-beer {
   width: 33%;
-
+  display: flex;
+  flex-wrap: wrap;
   padding-right: 20px;
 }
 .single-beer .alignLeft {

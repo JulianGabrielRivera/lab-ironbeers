@@ -16,46 +16,38 @@
   <body>
     <!-- views/layout.hbs -->
 
-    <html lang='en'>
-      <head>
-        <meta charset='utf-8' />
-        <title>IronBeers</title>
-        <link rel='stylesheet' href='/stylesheets/styles.css' />
-      </head>
-      <body>
-        <nav class='navbar navbar-expand-lg navbar-dark bg-primary py-4 h4 mt-2 ml-1  shadow '>
+    <nav
+      class='navbar navbar-expand-lg navbar-dark bg-primary py-4 h4 mt-2 ml-1 shadow'
+    >
 
-          <button
-            class='navbar-toggler'
-            type='button'
-            data-toggle='collapse'
-            data-target='#navbarNavAltMarkup'
-            aria-controls='navbarNavAltMarkup'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <span class='navbar-toggler-icon'></span>
-          </button>
-          <div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
-            <div class='navbar-nav ml-5 pr-2'>
-              <a class='nav-item nav-link active pr-4' href='/'>
-                Home
-                <span class='sr-only'>(current)</span>
-              </a>
-              <a class='nav-item nav-link pr-4' href='/beers'>Beers</a>
-              <a class='nav-item nav-link pr-4' href='/random-beer'>Random-Beer</a>
-              
-            </div>
-          </div>
-        </nav>
-        
-      
+      <button
+        class='navbar-toggler'
+        type='button'
+        data-toggle='collapse'
+        data-target='#navbarNavAltMarkup'
+        aria-controls='navbarNavAltMarkup'
+        aria-expanded='false'
+        aria-label='Toggle navigation'
+      >
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class='collapse navbar-collapse' id='navbarNavAltMarkup'>
+        <div class='navbar-nav ml-5 pr-2'>
+          <a class='nav-item nav-link active pr-4' href='/'>
+            Home
+            <span class='sr-only'>(current)</span>
+          </a>
+          <a class='nav-item nav-link pr-4' href='/beers'>Beers</a>
+          <a class='nav-item nav-link pr-4' href='/random-beer'>Random-Beer</a>
 
+        </div>
+      </div>
+    </nav>
 
     {{{body}}}
-    <footer class=" ml-1 mb-2">
-          <p>Develop by Ironhack ;)</p>
-        </footer>
+    <footer class='ml-1 mb-2'>
+      <p>Develop by Ironhack ;)</p>
+    </footer>
 
   </body>
 </html>
